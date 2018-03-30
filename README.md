@@ -188,102 +188,178 @@ Exiting...
 ```
 ## Example Input/output broken down
 
-```status``` ->
+```
+status
+```
+->
 
-```The farm has 0 harvested food so far.```
-
-```harvest ```->
-
-```The farm has 0 harvested food so far.```
-
-```field ``` ->
-
-```What kind of field is it: corn or wheat?
+```
+The farm has 0 harvested food so far.
 ```
 
-```corn ``` ->
+```
+harvest
+```
+->
 
-```How large is the field in hectares?
+```
+The farm has 0 harvested food so far.
 ```
 
-```50 ```->
+```
+field
+```
+->
 
-```Added a corn field of 50 hectares!
+```
+What kind of field is it: corn or wheat?
 ```
 
-```status ``` ->
+```
+corn
+```
+->
 
-```Corn field is 50 hectares.
-  The farm has 0 harvested food so far.```
+```
+How large is the field in hectares?
+```
 
-```harvest ``` ->
+```
+50
+```
+->
 
-```Harvesting 1000 food from 50 hectare corn field.
+```
+Added a corn field of 50 hectares!
+```
+
+```
+status
+```
+->
+
+```
+Corn field is 50 hectares.
+The farm has 0 harvested food so far.
+```
+
+```
+harvest
+```
+->
+
+```
+Harvesting 1000 food from 50 hectare corn field.
 The farm has 1000 harvested food so far.
 ```
 
-```field ``` ->
+```
+field
+```
+->
 
-```What kind of field is it: corn or wheat?
+```
+What kind of field is it: corn or wheat?
 ```
 
-```wheat ``` ->
+```
+wheat
+```
+->
 
-```How large is the field in hectares?
+```
+How large is the field in hectares?
 ```
 
-```100 ``` ->
+```
+100
+```
+->
 
-```Added a wheat field of 100 hectares!
+```
+Added a wheat field of 100 hectares!
 ```
 
-```harvest ``` ->
+```
+harvest
+```
+->
 
-```Harvesting 1000 food from 50 hectare corn field.
+```
+Harvesting 1000 food from 50 hectare corn field.
 Harvesting 3000 food from 100 hectare wheat field.
 The farm has 5000 harvested food so far.
 ```
 
-```relax ```->
+```
+relax
+```
+->
 
-```50 hectares of tall green stalks rustling in the breeze fill your horizon.
+```
+50 hectares of tall green stalks rustling in the breeze fill your horizon.
 The sun hangs low, casting an orange glow on a sea of 100 hectares of wheat.
 ```
 
-```field``` ->
+```
+field
+```
+->
 
-```What kind of field is it: corn or wheat?
+```
+What kind of field is it: corn or wheat?
 ```
 
-```corn ``` ->
+```
+corn
+```
+->
 
-```How large is the field in hectares?
+```
+How large is the field in hectares?
 ```
 
-```200 ``` ->
+```
+200
+```
+->
 
-```Added a corn field of 200 hectares!
+```
+Added a corn field of 200 hectares!
 ```
 
-```harvest ``` ->
+```
+harvest
+```
+->
 
-```Harvesting 1000 food from 50 hectare corn field.
+```
+Harvesting 1000 food from 50 hectare corn field.
 Harvesting 3000 food from 100 hectare wheat field.
 Harvesting 4000 food from 200 hectare corn field.
 The farm has 13000 harvested food so far.
 ```
 
-```status ``` ->
+```
+status
+```
+->
 
-```Corn field is 50 hectares.
+```
+Corn field is 50 hectares.
 Wheat field is 100 hectares.
 Corn field is 200 hectares.
 The farm has 13000 harvested food so far.
 ```
 
-```exit``` ->
+```
+exit
+```
+->
 
-```Exiting...```
+```
+Exiting...
+```
 
 ## Tips
 Remember to always run your code! Pick a small thing to work on - say, printing the input options - and get that working before moving on. You can also test your classes in irb before the program is fully functional!
