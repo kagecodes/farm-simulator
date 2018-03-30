@@ -190,13 +190,11 @@ Exiting...
 
 ```status``` ->
 
-```The farm has 0 harvested food so far.
-```
+```The farm has 0 harvested food so far.```
 
-harvest ->
+```harvest ```->
 
-```The farm has 0 harvested food so far.
-```
+```The farm has 0 harvested food so far.```
 
 ```field ``` ->
 
@@ -216,8 +214,7 @@ harvest ->
 ```status ``` ->
 
 ```Corn field is 50 hectares.
-The farm has 0 harvested food so far.
-```
+  The farm has 0 harvested food so far.```
 
 ```harvest ``` ->
 
