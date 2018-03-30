@@ -186,7 +186,7 @@ exit -> exits the program
 Exiting...
 
 ```
-## Example Input/output broken down
+<!-- ## Example Input/output broken down
 
 ```status``` ->
 
@@ -208,9 +208,9 @@ Exiting...
 ```Added a corn field of 50 hectares!```
 
 ```status``` ->
-
+```
 ```Corn field is 50 hectares.
-   The farm has 0 harvested food so far.```
+The farm has 0 harvested food so far.```
 
 ```harvest``` ->
 
@@ -278,4 +278,4 @@ Remember to always run your code! Pick a small thing to work on - say, printing 
 - handle the cases where users might enter bad input - make sure your program doesn't error out!
 - add a new field type - make sure it works with all the commands
 - allow farms to also have pastures
->> - pastures store animals, and on harvest, the animals breed, adding more animals
+>> - pastures store animals, and on harvest, the animals breed, adding more animals -->
