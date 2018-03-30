@@ -191,7 +191,6 @@ Exiting...
 ```
 status
 ```
-->
 
 ```
 The farm has 0 harvested food so far.
