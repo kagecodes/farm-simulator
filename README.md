@@ -188,12 +188,12 @@ Exiting...
 ```
 ## Example Input/output broken down
 
-```status``` ** -> **
+```status``` **->**
 ```
 The farm has 0 harvested food so far.
 ```
 
-```harvest``` ** -> ** 
+```harvest``` ** -> **
 
 ```
 The farm has 0 harvested food so far.
