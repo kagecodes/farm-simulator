@@ -23,7 +23,7 @@ This example shows the complete input and output for an series of actions that a
 
 *Note that any line that starts with* ```>>``` *represents the user taking an action.*
 
-** Complete example input/output **
+**Complete example input/output**
 
 ``` $ ruby code.rb ```
 
