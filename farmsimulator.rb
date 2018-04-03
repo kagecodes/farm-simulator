@@ -51,7 +51,7 @@ class Farmsimulator
   def harvest
     Field.all.each do |each|
       puts "Harvesting #{each.amount} food from #{each.size} hectare #{each.type} field."
-      @@total = each.amount
+      @@total += each.amount
     end
   end
 
