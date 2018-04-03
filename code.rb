@@ -1,41 +1,42 @@
 class Field
 
+  @@field = []
+
   def initialize(type, size)
     @type = type
-    @size = size
+    @size = size.to_i
+    @harvested = false
+    if @type == 'corn'
+      @amount = 20 * @size
+    else @type == 'wheat'
+      @amount = 30 * @size
+    end
+    @@field.push(self)
   end
 
-  def field
-    puts "What kind of field is it: corn or wheat?"
-    input_type = gets.chomp
-
-    puts "How large is the field in hectares?"
-    input_size = gets.chomp
-
-    # Field.create(input_type, input_size)
+  def type
+    @type
   end
 
-  def harvest
-
+  def size
+    @size
   end
 
-  def status
-
+  def amount
+    @amount
   end
 
-  def relax
-
+  def harvested
+    @harvested
   end
 
-  def self.create(type, size)
-    new_field = Field.new(type, size)
+  def harvested=(input)
+    @harvested = input
   end
 
+  def self.all
+    @@field
+  end
 
 
 end
-
-
-cornfield = Field.create("corn", 50)
-
-puts cornfield.inspect
